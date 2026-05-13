@@ -10,3 +10,5 @@ while True:
     print("5. Salir")
     opcion = input("Selecciona: ")
     # if/elif para cada opción...
+    if opcion == "4":
+        reporte()
