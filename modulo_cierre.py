@@ -6,4 +6,4 @@ def cerrar_ticket(ticket_id):
 def reporte():
     # Cuenta tickets por estado y prioridad
     # Muestra porcentajes
-    pass
+    print("Hola mundo desde cierre")
