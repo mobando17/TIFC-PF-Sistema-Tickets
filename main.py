@@ -8,7 +8,25 @@ while True:
     print("3. Cerrar ticket")
     print("4. Reporte")
     print("5. Salir")
-    opcion = input("Selecciona: ")
     # if/elif para cada opción...
-    if opcion == "2":
+
+    opcion = input("Selecciona una opción: ")
+
+    if opcion == "1":
+        registrar_ticket()
+
+    elif opcion == "2":
         listar_tickets()
+
+    elif opcion == "3":
+        cerrar_ticket()
+
+    elif opcion == "4":
+        reporte()
+
+    elif opcion == "5":
+        print("Saliendo del sistema...")
+        break
+
+    else:
+        print("Opción inválida")
