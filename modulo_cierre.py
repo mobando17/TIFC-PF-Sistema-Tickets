@@ -7,3 +7,4 @@ def reporte():
     # Cuenta tickets por estado y prioridad
     # Muestra porcentajes
     pass
+    print("Hola Mundo - Rama de Hermes")
