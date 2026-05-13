@@ -3,3 +3,5 @@ def registrar_ticket(descripcion, prioridad):
     # Genera ID: "T-001", "T-002"...
     # Escribe en el diccionario
     pass
+
+print("Hola mundo michael obando roa")
